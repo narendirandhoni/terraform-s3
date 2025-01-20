@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Narendiran Sankar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #ffffff;
+            color: #333;
+            text-align: center;
+            padding: 20px 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            border: 3px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin: 10px 0 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin: 0;
+        }
+
+        main {
+            margin: 0 auto;
+            padding: 30px;
+            max-width: 1000px;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #3498db;
+            text-align: center;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        ul {
+            padding-left: 20px;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        ul li::before {
+            content: '\2022';
+            color: #3498db;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 10px;
+            background: #ffffff;
+            color: #7f8c8d;
+            border-top: 1px solid #f1f1f1;
+        }
+
+        .footer-links {
+            margin-top: 15px;
+            font-size: 1.2rem;
+        }
+
+        .footer-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        .footer-links span {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .footer-phone {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        .footer-phone span {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://narendiran-resume-2024-bucket.s3.amazonaws.com/profile.JPG" alt="Narendiran Sankar">
+        <h1>Narendiran Sankar</h1>
+        <p>Cloud and DevOps Engineer</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Cloud and DevOps Engineer with 3+ years of experience in designing and automating secure file transfer processes for large-scale enterprise environments. Expertise in AWS services, encryption techniques, automation, real-time troubleshooting, and DevOps best practices. Adept at building scalable systems for secure file movement, monitoring, and supporting critical applications with zero downtime. Strong collaboration skills in agile environments, driving process improvement and operational excellence.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Cloud Platforms: AWS (Lambda, Transfer Family, S3, IAM, KMS, Secrets Manager, SSM Parameter Store, EventBridge, Security Groups, CloudWatch, SNS, CloudTrail, VPC Flow Logs, CloudFormation, EKS, WAF)</li>
+                <li>Infrastructure as Code (IaC): Terraform, CloudFormation</li>
+                <li>Container Technologies: Docker, Kubernetes</li>
+                <li>Monitoring Tools: Datadog, Dynatrace</li>
+                <li>Automation Tools: GitLab CI/CD, Jenkins</li>
+                <li>Scripting: Python</li>
+                <li>Configuration Management: Ansible</li>
+                <li>File Transfer: SFTP, SSH, API Integration</li>
+                <li>Security: AWS IAM, Data Encryption (KMS, PGP), Secrets Management</li>
+                <li>Operating Systems: Windows, Linux</li>
+                <li>Ticketing Tools: ServiceNow</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <h3>Managed File Transfer (MFT) System (Client - Statefarm)</h3>
+            <p><strong>Overview:</strong> Developed a Terraform codebase from scratch to build a robust file transfer system for secure data movement between cloud and on-prem environments using AWS services.</p>
+            <p><strong>Key Contributions:</strong></p>
+            <ul>
+                <li>Automated file transfers using AWS Lambda, Transfer Family, and S3.</li>
+                <li>Enforced security measures with IAM, encryption, and PGP key implementation.</li>
+                <li>Implemented monitoring solutions using Datadog and configured alerts with SNS.</li>
+                <li>Developed unit tests for Python Lambda code, ensuring robust and error-free deployment.</li>
+                <li>Reduced manual interventions by 50% and optimized file transfer times by 40%.</li>
+            </ul>
+            <p><strong>Impact:</strong> Enhanced scalability and operational efficiency, ensuring compliance with enterprise security standards and meeting SLA requirements with 99.9% uptime.</p>
+        </section>
+
+        <section>
+            <h2>Real-time Troubleshooting Use Cases</h2>
+            <ul>
+                <li><strong>Server Health Checks:</strong> Automated server health checks using Lambda functions and SNS alerts, resolving issues within 10 minutes of detection.</li>
+                <li><strong>Stuck File Detection:</strong> Implemented real-time S3 bucket monitoring to detect and automatically resolve stuck files, preventing workflow interruptions.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <h3>HTC Global Services</h3>
+            <p><strong>Cloud and DevOps Engineer</strong> (Nov 2021 - Present)</p>
+            <ul>
+                <li>Led the design and deployment of secure, scalable managed file transfer solutions using Terraform, AWS Lambda, and Transfer Family.</li>
+                <li>Developed automated file transfer processes, reducing manual intervention by 95%.</li>
+                <li>Integrated third-party tools for real-time scanning and tagging, improving data integrity by 20%.</li>
+                <li>Applied KMS encryption and PGP for secure data transfers, minimizing breaches by 30%.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><strong>BE - Electrical and Electronics Engineering</strong>, Velammal Engineering College (2020)</p>
+        </section>
+
+        <section>
+            <h2>Certificates</h2>
+            <ul>
+                <li>AWS Certified Solutions Architect - Associate</li>
+                <li>AWS Certified Developer - Associate</li>
+                <li>The Complete Python Bootcamp - Udemy</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mini Projects</h2>
+            <ul>
+                <li>Developed interactive Python-based games such as Blackjack, War, and Tic-Tac-Toe.</li>
+                <li>Created Docker containers and managed lifecycles (build, run, stop).</li>
+                <li>Deployed containerized applications using Kubernetes Pods and managed scaling through Kubernetes Deployments.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <span>🔗</span><a href="https://www.linkedin.com/in/narendiran-sankar-147999127/" target="_blank">LinkedIn</a>
+            <span>🐙</span><a href="https://github.com/narendirandhoni" target="_blank">GitHub</a>
+            <span>✉️</span><a href="mailto:narendirandhoni@gmail.com" target="_blank">Email</a>
+        </div>
+        <div class="footer-phone">
+            <span>📞</span>+91 8610470816
+        </div>
+        <p>&copy; 2024 Narendiran Sankar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
